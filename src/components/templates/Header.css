@@ -1,0 +1,13 @@
+header.header{
+    display: flex;
+    background: var(--bg-dark);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+header.header img{
+    margin-left: var(--aside-width);
+    width: 100%;
+    height: var(--header-height);
+    mask-image: linear-gradient(90deg, var(--bg-dark) 20%, rgba(55,134,166,1) 100%);
+}
