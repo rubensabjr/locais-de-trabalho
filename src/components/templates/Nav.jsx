@@ -1,5 +1,6 @@
 import './Nav.css'
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default props =>
     <aside className="menu-area">
@@ -7,23 +8,23 @@ export default props =>
             <div>
                 <i className="fa fa-cog"></i> Administração
             </div>
-            <a href="#/">
+            <Link to="/">
                 Administradores
-            </a>
-            <a href="#/">
+            </Link>
+            <Link to="/">
                 Áreas
-            </a>
-            <a href="#/">
+            </Link>
+            <Link to="/work-places">
                 Locais de Trabalho
-            </a>
-            <a href="#/">
+            </Link>
+            <Link to="/">
                 Habilidades
-            </a>
-            <a href="#/">
+            </Link>
+            <Link to="/">
                 Log
-            </a>
-            <a href="#/">
+            </Link>
+            <Link to="/">
                 Responsáveis
-            </a>
+            </Link>
         </nav>
     </aside>
