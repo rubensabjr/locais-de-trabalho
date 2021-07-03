@@ -1,24 +1,9 @@
 {
   "workPlaces": [
     {
-      "id": 1,
-      "predio": "predio 1",
-      "local": "local 1"
-    },
-    {
-      "id": 2,
-      "predio": "predio 2",
-      "local": "local 2"
-    },
-    {
-      "predio": "Prédio 3",
-      "local": "local 3",
-      "id": 3
-    },
-    {
       "predio": "Prédio 1",
       "local": "local 1",
-      "id": 4
+      "id": 1
     }
   ]
 }
